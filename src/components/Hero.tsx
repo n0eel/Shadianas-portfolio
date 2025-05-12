@@ -15,8 +15,7 @@ const Hero = () => {
             Lawyer
           </h2>
           <p className="text-lg text-gray-600 max-w-md">
-            I create beautiful, responsive websites that help businesses grow and connect with their audience.
-            Passionate about clean design and intuitive user experiences.
+            I work for Uzcard. Blah blah blah
           </p>
           <div className="flex items-center gap-4">
             <Button className="bg-pink-500 hover:bg-pink-600 text-white font-medium px-6 py-6">

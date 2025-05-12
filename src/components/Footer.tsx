@@ -10,7 +10,7 @@ const Footer = () => {
             Portfolio
           </Link>
           <p className="text-gray-600 text-sm">
-            © {new Date().getFullYear()} Sarah Johnson. All rights reserved.
+            © {new Date().getFullYear()} n0el. All rights reserved.
           </p>
           <div className="flex items-center space-x-4 mt-4 md:mt-0">
             <a href="#about" className="text-gray-600 hover:text-pink-500 text-sm">
