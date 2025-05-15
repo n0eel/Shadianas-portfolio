@@ -14,10 +14,10 @@ const Skills = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <Card className="border-pink-100 hover:shadow-md transition-all hover:border-pink-300">
+          <Card className="border-amber-100 hover:shadow-md transition-all hover:border-amber-300">
             <CardContent className="pt-6 flex flex-col items-center text-center">
-              <div className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center mb-5">
-                <Code className="w-7 h-7 text-pink-500" />
+              <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-5">
+                <Code className="w-7 h-7 text-amber-500" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Nothing</h3>
               <p className="text-gray-600">
@@ -26,10 +26,10 @@ const Skills = () => {
             </CardContent>
           </Card>
 
-          <Card className="border-pink-100 hover:shadow-md transition-all hover:border-pink-300">
+          <Card className="border-amber-100 hover:shadow-md transition-all hover:border-amber-300">
             <CardContent className="pt-6 flex flex-col items-center text-center">
-              <div className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center mb-5">
-                <Palette className="w-7 h-7 text-pink-500" />
+              <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-5">
+                <Palette className="w-7 h-7 text-amber-500" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Nothing</h3>
               <p className="text-gray-600">
@@ -38,10 +38,10 @@ const Skills = () => {
             </CardContent>
           </Card>
 
-          <Card className="border-pink-100 hover:shadow-md transition-all hover:border-pink-300">
+          <Card className="border-amber-100 hover:shadow-md transition-all hover:border-amber-300">
             <CardContent className="pt-6 flex flex-col items-center text-center">
-              <div className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center mb-5">
-                <Layout className="w-7 h-7 text-pink-500" />
+              <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-5">
+                <Layout className="w-7 h-7 text-amber-500" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Nothing</h3>
               <p className="text-gray-600">
@@ -50,10 +50,10 @@ const Skills = () => {
             </CardContent>
           </Card>
 
-          <Card className="border-pink-100 hover:shadow-md transition-all hover:border-pink-300">
+          <Card className="border-amber-100 hover:shadow-md transition-all hover:border-amber-300">
             <CardContent className="pt-6 flex flex-col items-center text-center">
-              <div className="w-14 h-14 rounded-full bg-pink-100 flex items-center justify-center mb-5">
-                <Users className="w-7 h-7 text-pink-500" />
+              <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-5">
+                <Users className="w-7 h-7 text-amber-500" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Nothing</h3>
               <p className="text-gray-600">

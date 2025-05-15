@@ -20,8 +20,8 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-gray-800">Contact Information</h3>
             <div className="space-y-4">
               <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center">
-                  <Mail className="w-5 h-5 text-pink-500" />
+                <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
+                  <Mail className="w-5 h-5 text-amber-500" />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
@@ -30,8 +30,8 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center">
-                  <Phone className="w-5 h-5 text-pink-500" />
+                <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
+                  <Phone className="w-5 h-5 text-amber-500" />
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Phone</p>
@@ -47,17 +47,17 @@ const Contact = () => {
                   href="https://t.me/shadiana_0434" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center hover:bg-pink-200 transition-colors"
+                  className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition-colors"
                 >
-                  <TagIcon className="w-5 h-5 text-pink-500"/>
+                  <TagIcon className="w-5 h-5 text-amber-500"/>
                 </a>
                 <a 
                   href="https://instagram.com/shadiana0434" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-pink-100 flex items-center justify-center hover:bg-pink-200 transition-colors"
+                  className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition-colors"
                 >
-                  <Instagram className="w-5 h-5 text-pink-500" />
+                  <Instagram className="w-5 h-5 text-amber-500" />
                 </a>
               </div>
             </div>
@@ -87,12 +87,12 @@ const Contact = () => {
                 <textarea 
                   id="message" 
                   rows={5}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-pink-500"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
                   placeholder="Your message"
                 ></textarea>
               </div>
               
-              <Button className="bg-pink-500 hover:bg-pink-600 text-white w-full py-6">
+              <Button className="bg-amber-500 hover:bg-amber-600 text-white w-full py-6">
                 Send Message
               </Button>
             </form>
