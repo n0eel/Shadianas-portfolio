@@ -21,20 +21,20 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                  <Mail className="w-5 h-5 text-amber-500" />
+                  <Mail className="w-5 h-5 text-amber-800" />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500">Email</p>
+                  <p className="text-sm text-gray-800">Email</p>
                   <p className="text-gray-800">shadiko@gmail.com</p>
                 </div>
               </div>
               
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                  <Phone className="w-5 h-5 text-amber-500" />
+                  <Phone className="w-5 h-5 text-amber-800" />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-500">Phone</p>
+                  <p className="text-sm text-gray-800">Phone</p>
                   <p className="text-gray-800">+998(99)-001-04-34</p>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition-colors"
                 >
-                  <TagIcon className="w-5 h-5 text-amber-500"/>
+                  <TagIcon className="w-5 h-5 text-amber-800"/>
                 </a>
                 <a 
                   href="https://instagram.com/shadiana0434" 
@@ -57,7 +57,7 @@ const Contact = () => {
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center hover:bg-amber-200 transition-colors"
                 >
-                  <Instagram className="w-5 h-5 text-amber-500" />
+                  <Instagram className="w-5 h-5 text-amber-800" />
                 </a>
               </div>
             </div>
@@ -87,12 +87,12 @@ const Contact = () => {
                 <textarea 
                   id="message" 
                   rows={5}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-800"
                   placeholder="Your message"
                 ></textarea>
               </div>
               
-              <Button className="bg-amber-500 hover:bg-amber-600 text-white w-full py-6">
+              <Button className="bg-amber-800 hover:bg-amber-600 text-white w-full py-6">
                 Send Message
               </Button>
             </form>

@@ -17,7 +17,7 @@ const Skills = () => {
           <Card className="border-amber-100 hover:shadow-md transition-all hover:border-amber-300">
             <CardContent className="pt-6 flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-5">
-                <Code className="w-7 h-7 text-amber-500" />
+                <Code className="w-7 h-7 text-amber-800" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Nothing</h3>
               <p className="text-gray-600">
@@ -29,7 +29,7 @@ const Skills = () => {
           <Card className="border-amber-100 hover:shadow-md transition-all hover:border-amber-300">
             <CardContent className="pt-6 flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-5">
-                <Palette className="w-7 h-7 text-amber-500" />
+                <Palette className="w-7 h-7 text-amber-800" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Nothing</h3>
               <p className="text-gray-600">
@@ -41,7 +41,7 @@ const Skills = () => {
           <Card className="border-amber-100 hover:shadow-md transition-all hover:border-amber-300">
             <CardContent className="pt-6 flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-5">
-                <Layout className="w-7 h-7 text-amber-500" />
+                <Layout className="w-7 h-7 text-amber-800" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Nothing</h3>
               <p className="text-gray-600">
@@ -53,7 +53,7 @@ const Skills = () => {
           <Card className="border-amber-100 hover:shadow-md transition-all hover:border-amber-300">
             <CardContent className="pt-6 flex flex-col items-center text-center">
               <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-5">
-                <Users className="w-7 h-7 text-amber-500" />
+                <Users className="w-7 h-7 text-amber-800" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Nothing</h3>
               <p className="text-gray-600">
